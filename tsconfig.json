@@ -8,7 +8,7 @@
     ],
     "outDir": "dist",
     "baseUrl": "src",
-    "rootDir": ".",
+    "rootDir": "src",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {},
