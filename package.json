@@ -4,7 +4,8 @@
   "description": "API Server for a Raspberry PI to start a RTMP streaming",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node-transpile-only src/index.ts",
+    "start": "node dist/index.js",
+    "start-dev": "ts-node-transpile-only src/index.ts",
     "build": "rm -rf dist && tsc --project ./tsconfig.json",
     "clean": "rm -rf dist",
     "test": "jest",
